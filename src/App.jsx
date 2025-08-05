@@ -1,5 +1,10 @@
 import React from "react";
 import "./styles.css"; // renamed for clarity
+import AuraZone from './assets/AuraZone.png'
+import digitalDog from './assets/digitalDog.png'
+import escape from './assets/escape.png'
+import image from './assets/image.png'
+import worldCountry from './assets/worldCountry.png'
 
 function MainComponent() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -40,7 +45,7 @@ function MainComponent() {
     {
       title: "E-Commerce Website: AuraZone",
       image:
-        "src/assets/AuraZone.png",
+        AuraZone,
       description:
         "A stylish, interactive quiz web app that reveals the user’s aura based on their responses. Blending personality insight with sleek design, AuraZone uses DOM manipulation and smooth transitions to deliver an engaging, self-reflective experience.",
       techStack: ["HTML5", "CSS3"],
@@ -50,7 +55,7 @@ function MainComponent() {
     {
       title: "Room Escape Game",
       image:
-        "src/assets/escape.png",
+        escape,
       description:
         "An interactive puzzle-based web game where users solve clues to uncover the secret password and escape the virtual room. Built with vanilla JS and CSS, it combines game logic, event handling, and immersive UI design to deliver a mini escape room experience.",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)"],
@@ -60,7 +65,7 @@ function MainComponent() {
     {
       title: "Digital Dog ",
       image:
-        "src/assets/digitalDog.png",
+        digitalDog,
       description:
         "A fun and responsive dog-themed web app where users can fetch random dog images via API and even rename the site title. A lighthearted project showcasing DOM manipulation, API handling, and dynamic UI updates.",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)", "Fetch API"],
@@ -70,7 +75,7 @@ function MainComponent() {
     {
       title: "World Countries Data Visualization",
       image:
-        "src/assets/worldCountry.png",
+        worldCountry,
       description:
         "An interactive, responsive web app to explore country data with real-time search, sorting, and dynamic graphs — built entirely with vanilla JS and custom CSS",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)", "Fetch API", "Font Awesome"],
@@ -198,7 +203,7 @@ function MainComponent() {
             <div className="hero-image-wrapper">
               <div className="hero-image-circle">
                 <img
-                  src="src/assets/image.png"
+                  src={image}
                   alt="Manika Kutiyal"
                   className="hero-image"
                 />
