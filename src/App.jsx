@@ -87,7 +87,14 @@ function MainComponent() {
   ];
 
   const certifications = [
-  {
+    {
+    title: "Generative AI with AWS",
+    issuer: "Udacity (Part of Accenture)",
+    grade: "Not applicable (N/A) ",
+    link: "https://www.udacity.com/certificate/e/a0c73520-5974-11f0-8ef9-e316d9d2869a",
+    icon: "fas fa-robot",
+    },  
+    {
     title: "Learning How to Learn: Powerful mental tools to help you master tough subjects",
     issuer: "Deep Teaching Solutions",
     grade: 94.4,
