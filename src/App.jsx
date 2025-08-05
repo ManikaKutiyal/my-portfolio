@@ -40,7 +40,7 @@ function MainComponent() {
     {
       title: "E-Commerce Website: AuraZone",
       image:
-        "AuraZone.png",
+        "src/assets/AuraZone.png",
       description:
         "A stylish, interactive quiz web app that reveals the user’s aura based on their responses. Blending personality insight with sleek design, AuraZone uses DOM manipulation and smooth transitions to deliver an engaging, self-reflective experience.",
       techStack: ["HTML5", "CSS3"],
@@ -50,7 +50,7 @@ function MainComponent() {
     {
       title: "Room Escape Game",
       image:
-        "escape.png",
+        "src/assets/escape.png",
       description:
         "An interactive puzzle-based web game where users solve clues to uncover the secret password and escape the virtual room. Built with vanilla JS and CSS, it combines game logic, event handling, and immersive UI design to deliver a mini escape room experience.",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)"],
@@ -60,7 +60,7 @@ function MainComponent() {
     {
       title: "Digital Dog ",
       image:
-        "digitalDog.png",
+        "src/assets/digitalDog.png",
       description:
         "A fun and responsive dog-themed web app where users can fetch random dog images via API and even rename the site title. A lighthearted project showcasing DOM manipulation, API handling, and dynamic UI updates.",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)", "Fetch API"],
@@ -70,7 +70,7 @@ function MainComponent() {
     {
       title: "World Countries Data Visualization",
       image:
-        "worldCountry.png",
+        "src/assets/worldCountry.png",
       description:
         "An interactive, responsive web app to explore country data with real-time search, sorting, and dynamic graphs — built entirely with vanilla JS and custom CSS",
       techStack: ["HTML5", "CSS3", "JavaScript (ES6+)", "Fetch API", "Font Awesome"],
@@ -198,7 +198,7 @@ function MainComponent() {
             <div className="hero-image-wrapper">
               <div className="hero-image-circle">
                 <img
-                  src="image.png"
+                  src="src/assets/image.png"
                   alt="Manika Kutiyal"
                   className="hero-image"
                 />
